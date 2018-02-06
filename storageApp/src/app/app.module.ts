@@ -9,12 +9,15 @@ import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { AngularFireStorageModule } from 'angularfire2/storage';
 
 import { environment } from '../environments/environment';
+
 import { DropZoneDirective } from './directives/drop-zone.directive';
+import { FileUploadComponent } from './components/file-upload/file-upload.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DropZoneDirective
+    DropZoneDirective,
+    FileUploadComponent
   ],
   imports: [
     BrowserModule,
