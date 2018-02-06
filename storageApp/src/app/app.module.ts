@@ -9,10 +9,12 @@ import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { AngularFireStorageModule } from 'angularfire2/storage';
 
 import { environment } from '../environments/environment';
+import { DropZoneDirective } from './directives/drop-zone.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DropZoneDirective
   ],
   imports: [
     BrowserModule,
