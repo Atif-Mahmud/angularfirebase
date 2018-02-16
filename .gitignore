@@ -1,3 +1,4 @@
 .idea/
 storageApp/
+storageApp/node_modules
 emailAuth/node_modules
