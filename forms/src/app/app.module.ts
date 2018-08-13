@@ -31,6 +31,7 @@ import { SubmitFormComponent } from './submit-form/submit-form.component';
     BrowserModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
+    MatInputModule,
     MatButtonModule,
     MatChipsModule,
     MatSelectModule,
